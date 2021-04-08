@@ -8,6 +8,7 @@
 
   --darck-bg-cl: #2f303a;
   --light-bg-cl: #f5f4fa;
+  --white-bg-cl: #ffffff;
 
   --main-font: "Roboto", Arial, Helvetica, sans-serif;
   --logo-font: "Raleway", Arial, Helvetica, sans-serif;
@@ -69,6 +70,70 @@ body {
 .links-top:hover,
 .links-top:focus {
   color: var(--accent-text-cl);
+}
+
+.white-bg {
+  background-color: var(--white-bg-cl);
+}
+
+.index-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--links-text-cl);
+  text-transform: uppercase;
+}
+
+.white-space {
+  white-space: nowrap;
+}
+
+.btn-blue {
+  font-family: Roboto;
+  font-weight: bold;
+  line-height: 1.87;
+  display: flex;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--links-text-cl);
+  background-color: var(--accent-text-cl);
+  cursor: pointer;
+}
+
+.index-title-list {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.index-text-list {
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--alt-text-cl);
+}
+
+.index-title-section {
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+.index-team-bg {
+  background-color: var(--light-bg-cl);
+}
+.index-title-team {
+  font-weight: 500;
+  line-height: 1.19x;
+  text-align: center;
+}
+
+.index-text-team {
+  line-height: 1.19x;
+  text-align: center;
+  color: var(--alt-text-cl);
 }
 
 .visually-hidden {
