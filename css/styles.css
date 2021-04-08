@@ -1,0 +1,139 @@
+:root {
+  --text-cl: #212121;
+  --alt-text-cl: #757575;
+  --logo-text-cl: #000000;
+  --links-text-cl: #ffffff;
+  --links-text-bot-cl: rgba(255, 255, 255, 0.6);
+  --accent-text-cl: #2196f3;
+
+  --darck-bg-cl: #2f303a;
+  --light-bg-cl: #f5f4fa;
+
+  --main-font: "Roboto", Arial, Helvetica, sans-serif;
+  --logo-font: "Raleway", Arial, Helvetica, sans-serif;
+}
+
+body {
+  font-display: optional;
+  font-family: var(--main-font);
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  color: var(--text-cl);
+}
+
+.logo {
+  font-family: var(--logo-font);
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+
+.logo-cl-01 {
+  color: var(--accent-text-cl);
+}
+
+.logo-cl-02 {
+  color: var(--logo-text-cl);
+}
+.logo-cl-03 {
+  color: var(--links-text-cl);
+}
+
+.list {
+  list-style: none;
+}
+
+.nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: inherit;
+  text-decoration: none;
+}
+
+.nav:hover,
+.nav:focus {
+  color: var(--accent-text-cl);
+}
+
+.links-top {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--alt-text-cl);
+  text-decoration: none;
+}
+
+.links-top:hover,
+.links-top:focus {
+  color: var(--accent-text-cl);
+}
+
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+.btn {
+  font-weight: 500;
+  text-align: center;
+  background-color: var(--light-bg-cl);
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: var(--accent-text-cl);
+  color: var(--links-text-cl);
+}
+
+.por-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.por-p {
+  font-size: 16px;
+  line-height: 1.87px;
+  color: var(--alt-text-cl);
+}
+
+.address {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--links-text-cl);
+  text-decoration: none;
+}
+
+.address:hover,
+.address:focus {
+  color: var(--accent-text-cl);
+}
+
+.links-bot {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--links-text-bot-cl);
+  text-decoration: none;
+}
+
+.links-bot:hover,
+.links-bot:focus {
+  color: var(--accent-text-cl);
+}
+
+.dark-bg {
+  background-color: var(--darck-bg-cl);
+}
