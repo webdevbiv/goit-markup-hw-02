@@ -76,7 +76,7 @@ body {
   background-color: var(--white-bg-cl);
 }
 
-.index-title {
+.in-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -102,35 +102,35 @@ body {
   cursor: pointer;
 }
 
-.index-title-list {
+.in-title-list {
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
 }
 
-.index-text-list {
+.in-text-list {
   font-size: 14px;
   line-height: 1.71;
   color: var(--alt-text-cl);
 }
 
-.index-title-section {
+.in-title-section {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
 }
 
-.index-team-bg {
+.in-team-bg {
   background-color: var(--light-bg-cl);
 }
-.index-title-team {
+.in-title-team {
   font-weight: 500;
   line-height: 1.19x;
   text-align: center;
 }
 
-.index-text-team {
+.in-text-team {
   line-height: 1.19x;
   text-align: center;
   color: var(--alt-text-cl);
