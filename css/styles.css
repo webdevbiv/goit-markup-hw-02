@@ -126,12 +126,12 @@ body {
 }
 .in-title-team {
   font-weight: 500;
-  line-height: 1.19x;
+  line-height: 1.19;
   text-align: center;
 }
 
 .in-text-team {
-  line-height: 1.19x;
+  line-height: 1.19;
   text-align: center;
   color: var(--alt-text-cl);
 }
@@ -169,7 +169,7 @@ body {
 
 .por-p {
   font-size: 16px;
-  line-height: 1.87px;
+  line-height: 1.88;
   color: var(--alt-text-cl);
 }
 
