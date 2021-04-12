@@ -1,44 +1,43 @@
 :root {
   --text-cl: #212121;
-  --alt-text-cl: #757575;
-  --logo-text-cl: #000000;
-  --links-text-cl: #ffffff;
-  --links-text-bot-cl: rgba(255, 255, 255, 0.6);
-  --accent-text-cl: #2196f3;
+  --text-alt-cl: #757575;
+  --text-logo-cl: #000000;
+  --text-links-cl: #ffffff;
+  --text-bot-links-cl: rgba(255, 255, 255, 0.6);
+  --text-accent-cl: #2196f3;
 
-  --darck-bg-cl: #2f303a;
-  --light-bg-cl: #f5f4fa;
-  --white-bg-cl: #ffffff;
+  --bg-darck-cl: #2f303a;
+  --bg-light-cl: #f5f4fa;
+  --bg-white-cl: #ffffff;
 
-  --main-font: "Roboto", Arial, Helvetica, sans-serif;
-  --logo-font: "Raleway", Arial, Helvetica, sans-serif;
+  --font-main: "Roboto", Arial, Helvetica, sans-serif;
+  --font-logo: "Raleway", Arial, Helvetica, sans-serif;
 }
 
 body {
   font-display: optional;
-  font-family: var(--main-font);
-  line-height: 1.62;
+  font-family: var(--font-main);
   letter-spacing: 0.03em;
   color: var(--text-cl);
 }
 
 .logo {
-  font-family: var(--logo-font);
+  font-family: var(--font-logo);
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
 }
 
-.logo-cl-01 {
-  color: var(--accent-text-cl);
+.logo .l1 {
+  color: var(--text-accent-cl);
 }
 
-.logo-cl-02 {
-  color: var(--logo-text-cl);
+.logo .l2 {
+  color: var(--text-logo-cl);
 }
 
-.logo-cl-03 {
-  color: var(--links-text-cl);
+.logo .l3 {
+  color: var(--text-links-cl);
 }
 
 .list {
@@ -56,7 +55,7 @@ body {
 
 .nav:hover,
 .nav:focus {
-  color: var(--accent-text-cl);
+  color: var(--text-accent-cl);
 }
 
 .links-top {
@@ -64,26 +63,32 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--alt-text-cl);
+  color: var(--text-alt-cl);
   text-decoration: none;
 }
 
 .links-top:hover,
 .links-top:focus {
-  color: var(--accent-text-cl);
+  color: var(--text-accent-cl);
 }
 
 .white-bg {
-  background-color: var(--white-bg-cl);
+  background-color: var(--bg-white-cl);
+}
+.dark-bg {
+  background-color: var(--bg-darck-cl);
+}
+.light-bg {
+  background-color: var(--bg-light-cl);
 }
 
-.in-title {
+.ind-h1 {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
-  color: var(--links-text-cl);
+  color: var(--text-links-cl);
   text-transform: uppercase;
 }
 
@@ -91,50 +96,51 @@ body {
   white-space: nowrap;
 }
 
-.btn-blue {
-  font-weight: bold;
-  line-height: 1.87;
+.ind-btn {
+  font-weight: 700;
+  line-height: 1.88;
   display: flex;
   text-align: center;
   letter-spacing: 0.06em;
-  color: var(--links-text-cl);
-  background-color: var(--accent-text-cl);
+  color: var(--text-links-cl);
+  background-color: var(--text-accent-cl);
   cursor: pointer;
 }
 
-.in-title-list {
-  font-weight: bold;
+.ind-list1-h3 {
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
 }
 
-.in-text-list {
+.ind-list1-p {
   font-size: 14px;
   line-height: 1.71;
-  color: var(--alt-text-cl);
+  color: var(--text-alt-cl);
 }
 
-.in-title-section {
+.ind-h2 {
   font-size: 36px;
-  line-height: 1.16;
+  line-height: 1.17;
   text-align: center;
+  font-weight: 700;
 }
 
-.in-team-bg {
-  background-color: var(--light-bg-cl);
-}
-.in-title-team {
+.ind-list2-h3 {
   font-weight: 500;
-  font-size: 19px;
+  font-size: 16px;
   line-height: 1.19;
   text-align: center;
+  letter-spacing: 0.03em;
 }
 
-.in-text-team {
+.ind-list2-p {
   line-height: 1.19;
+  font-size: 16px;
   text-align: center;
-  color: var(--alt-text-cl);
+  letter-spacing: 0.03em;
+  color: var(--text-alt-cl);
 }
 
 .visually-hidden {
@@ -148,58 +154,56 @@ body {
   overflow: hidden;
 }
 
-.btn {
+.por_btn {
   font-weight: 500;
   text-align: center;
-  background-color: var(--light-bg-cl);
+  line-height: 1.63;
+  background-color: var(--bg-light-cl);
   cursor: pointer;
 }
 
-.btn:hover,
-.btn:focus {
-  background-color: var(--accent-text-cl);
-  color: var(--links-text-cl);
+.por_btn:hover,
+.por_btn:focus {
+  background-color: var(--text-accent-cl);
+  color: var(--text-links-cl);
 }
 
-.por-title {
-  font-weight: bold;
+.por-list1-h2 {
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
 
-.por-p {
+.por-list1-p {
   font-size: 16px;
   line-height: 1.88;
-  color: var(--alt-text-cl);
+  letter-spacing: 0.03em;
+  color: var(--text-alt-cl);
 }
 
 .address {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
-  color: var(--links-text-cl);
+  color: var(--text-links-cl);
   text-decoration: none;
 }
 
 .address:hover,
 .address:focus {
-  color: var(--accent-text-cl);
+  color: var(--text-accent-cl);
 }
 
 .links-bot {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
-  color: var(--links-text-bot-cl);
+  color: var(--text-bot-links-cl);
   text-decoration: none;
 }
 
 .links-bot:hover,
 .links-bot:focus {
-  color: var(--accent-text-cl);
-}
-
-.dark-bg {
-  background-color: var(--darck-bg-cl);
+  color: var(--text-accent-cl);
 }
